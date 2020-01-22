@@ -94,12 +94,11 @@ img {
 /*-----------Project page-----------------------*/
 
 .Project {
-  height: 100vh;
+  height: 50%;
   width: 100%;
   background-image: url("safar-safarov-MSN8TFhJ0is-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-<<<<<<< HEAD
   background-position: center center;
   background-attachment: fixed;
   overflow: hidden;
@@ -112,13 +111,10 @@ img {
     center center fixed cover;
   margin: 30px;
 } */
-=======
-  overflow: hidden;
-  margin-top: 30px;
-}
->>>>>>> 785f4c356144b4a34f6646bb17621418b5537df4
 
-#Project01 h2 {
+
+
+/* #Project01 h2 {
   margin: 60px;
   padding: 10px;
   border-radius: 10px;
@@ -126,18 +122,16 @@ img {
   background-color: rgb(211, 183, 183);
   display: flex;
   /*text-align: justify;*/
-  justify-content: center;
-  overflow: hidden;
+justify-content: center;
+overflow: hidden;
 }
 
-#Project01 p {
+*/ #Project01 p {
   margin: 0px 20px;
   font-size: 20px;
   width: 50%;
-<<<<<<< HEAD
   color: white;
-=======
->>>>>>> 785f4c356144b4a34f6646bb17621418b5537df4
+
 }
 
 /*-----------About Me page-------*/
@@ -147,13 +141,10 @@ img {
   width: 100%;
   background-image: url("flat.jpg");
   background-size: cover;
-<<<<<<< HEAD
-  background-repeat: no-repeat;
+  <<<<<<< HEAD background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-=======
->>>>>>> 785f4c356144b4a34f6646bb17621418b5537df4
-  overflow: hidden;
+  =======>>>>>>>785f4c356144b4a34f6646bb17621418b5537df4 overflow: hidden;
   margin-top: 30px;
 }
 
@@ -179,15 +170,11 @@ img {
 
 .contactMe {
   background-color: rgb(22, 20, 12, 0.6);
-<<<<<<< HEAD
-  background-position: center center;
+  <<<<<<< HEAD background-position: center center;
   background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
-=======
-
->>>>>>> 785f4c356144b4a34f6646bb17621418b5537df4
-  overflow: hidden;
+  =======>>>>>>>785f4c356144b4a34f6646bb17621418b5537df4 overflow: hidden;
   margin-top: 0px;
 }
 
