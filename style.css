@@ -8,14 +8,33 @@ html {
   scroll-behavior: smooth;
 }
 
+
+/* ----------main section for whole pages------ */
+
+#mainsections{
+  background-color: rgb(180, 47, 47);
+  width: auto;
+  height: auto;
+
+  /* background-image: url("keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+  height: 100%; */
+}
+
+
 /*-------Nav bar-----*/
+
+/* header{
+  display: flex;
+  justify-content: left;
+  text-align: center;
+} */
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
   overflow: hidden;
-  background-color: rgb(2, 1, 1, 0.5);
+  background-color: rgba(89, 107, 212, 0.863);
   position: -webkit-sticky;
   /* Safari */
   position: sticky;
@@ -23,17 +42,37 @@ ul {
   top: 0px;
 }
 
-li {
-  display: inline-flex;
+/* nav{
+  float:right;
+  display:block;
+  text-align: center;
+  justify-content: center;
+
+} */
+
+#logo{
+   line-height: 50px;
+   padding-left: 30px;
+   margin: auto;
+   float: right;
 }
+li { 
+  display: inline;
+  /* justify-content: center;
+  text-align: justify; */
+  
+   
+  
+} 
 
 li a {
-  display: inline;
+  /* display: inline; */
+  
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 0px;
   text-decoration: none;
-  margin-left: 2px;
+  
 }
 
 li a:hover {
@@ -45,7 +84,7 @@ li a:hover {
 }
 
 /*-------Background image css----*/
-.backImg {
+.homeFrontImg {
   width: 100%;
   height: 100vh;
   background-image: url("flat.jpg");
@@ -55,24 +94,35 @@ li a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /*color: black;*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+   
 }
 
 /*-------Home page---------*/
 .profile {
-  width: 400px;
-  background-color: rgba(235, 88, 88, 0.5);
+ width: 300px;
+ height:380px;
+  background-color: rgba(78, 60, 60, 0.5);
   padding: 30px 0px;
   border-radius: 10%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+ 
 }
 
+ 
 img {
-  height: 300px;
+  height: 150px;
   border-radius: 50%;
+
 }
 
 #colorName {
-  color: rgb(22, 20, 12);
+  color: rgb(26, 23, 12);
 }
 
 #color2 {
@@ -84,11 +134,12 @@ img {
   cursor: pointer;
 }
 
+
+/* ---------------social media icons-------------- */
 .profileFonts {
   margin: 0px 20px;
   font-size: 30px;
-  background-color: rgb(211, 183, 183);
-  border-radius: 5%;
+   
 }
 
 /*-----------Project page-----------------------*/
@@ -96,7 +147,7 @@ img {
 .Project {
   height: 50%;
   width: 100%;
-  background-image: url("safar-safarov-MSN8TFhJ0is-unsplash.jpg");
+   background-color: red;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -128,10 +179,11 @@ overflow: hidden;
 
 */ #Project01 p {
   margin: 0px 20px;
+  padding: 0px 50px;
   font-size: 20px;
-  width: 50%;
-  color: white;
-
+  width: auto;
+  background-position: center center;
+  
 }
 
 /*-----------About Me page-------*/
@@ -162,8 +214,10 @@ overflow: hidden;
 
 #about_me p {
   margin: 0px 20px;
-  width: 50%;
+  padding: 0px 50px;
   font-size: 20px;
+  width: auto;
+  background-position: center center;
 }
 
 /*-----------Contact page------------*/
@@ -174,7 +228,7 @@ overflow: hidden;
   background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  =======>>>>>>>785f4c356144b4a34f6646bb17621418b5537df4 overflow: hidden;
+ overflow: hidden;
   margin-top: 0px;
 }
 
@@ -183,7 +237,7 @@ overflow: hidden;
   padding: 10px;
   border-radius: 10px;
 
-  background-color: rgb(211, 183, 183);
+ 
   display: flex;
   text-align: justify;
   justify-content: center;
