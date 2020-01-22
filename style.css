@@ -11,7 +11,7 @@ html {
 
 /* ----------main section for whole pages------ */
 
-#mainsections{
+#mainsections {
   background-color: rgb(180, 47, 47);
   width: auto;
   height: auto;
@@ -50,29 +50,30 @@ ul {
 
 } */
 
-#logo{
-   line-height: 50px;
-   padding-left: 30px;
-   margin: auto;
-   float: right;
+#logo {
+  line-height: 50px;
+  padding-left: 30px;
+  margin: auto;
+  float: right;
 }
-li { 
+
+li {
   display: inline;
   /* justify-content: center;
   text-align: justify; */
-  
-   
-  
-} 
+
+
+
+}
 
 li a {
   /* display: inline; */
-  
+
   color: white;
   text-align: center;
   padding: 14px 0px;
   text-decoration: none;
-  
+
 }
 
 li a:hover {
@@ -97,13 +98,13 @@ li a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-   
+
 }
 
 /*-------Home page---------*/
 .profile {
- width: 300px;
- height:380px;
+  width: 300px;
+  height: 380px;
   background-color: rgba(78, 60, 60, 0.5);
   padding: 30px 0px;
   border-radius: 10%;
@@ -111,10 +112,10 @@ li a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
- 
+
 }
 
- 
+
 img {
   height: 150px;
   border-radius: 50%;
@@ -139,7 +140,7 @@ img {
 .profileFonts {
   margin: 0px 20px;
   font-size: 30px;
-   
+
 }
 
 /*-----------Project page-----------------------*/
@@ -147,7 +148,7 @@ img {
 .Project {
   height: 50%;
   width: 100%;
-   background-color: red;
+  background-color: rgb(224, 208, 208);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -166,24 +167,22 @@ img {
 
 
 /* #Project01 h2 {
-  margin: 60px;
+  margin: 5px;
   padding: 10px;
   border-radius: 10px;
 
   background-color: rgb(211, 183, 183);
   display: flex;
-  /*text-align: justify;*/
-justify-content: center;
-overflow: hidden;
-}
+  text-align: justify; */
 
-*/ #Project01 p {
-  margin: 0px 20px;
-  padding: 0px 50px;
+#Project01 p {
+
+  padding: 0px 15px;
   font-size: 20px;
   width: auto;
   background-position: center center;
-  
+  word-wrap: break-word;
+
 }
 
 /*-----------About Me page-------*/
@@ -193,10 +192,10 @@ overflow: hidden;
   width: 100%;
   background-image: url("flat.jpg");
   background-size: cover;
-  <<<<<<< HEAD background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  =======>>>>>>>785f4c356144b4a34f6646bb17621418b5537df4 overflow: hidden;
+  overflow: hidden;
   margin-top: 30px;
 }
 
@@ -213,8 +212,8 @@ overflow: hidden;
 }
 
 #about_me p {
-  margin: 0px 20px;
-  padding: 0px 50px;
+  margin: 0px 12px;
+  padding: 0px 12px;
   font-size: 20px;
   width: auto;
   background-position: center center;
@@ -223,21 +222,20 @@ overflow: hidden;
 /*-----------Contact page------------*/
 
 .contactMe {
-  background-color: rgb(22, 20, 12, 0.6);
-  <<<<<<< HEAD background-position: center center;
+  background-color: rgba(0, 0, 0, 0.835);
+  padding-top: 0px;
+  background-position: center center;
   background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
- overflow: hidden;
-  margin-top: 0px;
+  overflow: hidden;
+
 }
 
 #contact h2 {
-  margin: 60px;
-  padding: 10px;
-  border-radius: 10px;
-
- 
+  color: white;
+  margin: 10px;
+  padding-top: 10px;
   display: flex;
   text-align: justify;
   justify-content: center;
@@ -245,6 +243,10 @@ overflow: hidden;
 }
 
 #contact p {
-  margin: 10px 20px;
-  padding: 10px;
+  margin: 0px 10px;
+  padding: 0px 30px 20px 15px;
+
+  color: white;
+  word-wrap: break-word;
+
 }
