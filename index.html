@@ -8,45 +8,71 @@
   <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 </head>
-<body id="home">
-  <header>
-    
-    <nav>
-      <ul>
-        <div id="logo">RB
-           
-        
-          <li><a href="#home">home</a></li>
-          <li><a href="#Project01">Project</a></li>
-          <li><a href="#about_me">About Me</a></li>
-          <li><a href="#contact">Contact</a></li>
-        
-       </div>
-      </ul>
-    </nav>
-  </header>
+<body>
+<!-- --------------------NavBar---------------- -->
+<div class="hover_chnage">
+  <nav class="navbar navbar-inverse navbar-fixed-top text-uppercase ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="https://github.com/rohbdn07" target="_blank">Rohit Bhandari</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#sections01">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Project <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section02">Project 1</a></li>
+              <li><a href="#section02">Project 2</a></li>
+              <li><a href="#section02">Project 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#section3">About Me</a></li>
+          <li><a href="#section4">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+ </div>   
+  <!-- --------------------NavBar End here---------------- -->
 
   <main>
-    <!-- ---------------------------Home section------------------------------------------ -->
+ <!-- ---------------------------Home section------------------------------------------ -->   
     <section id="sections01"> 
-    <div class="homeFrontImg">
-      <div class="profile">
+      <div class="homeFrontImg">
+        <!--------------homepage_own_image-------- -->
+        <div class="profile_ownimage">
           <img src="images/ownimage.jpg" />
-    
-          <div class="profileText">
-            <h2 id="colorName">ROHIT RAJ BHANDARI</h2>
+
+
+                    <!------------front_Name and program -------- -->
+        <div class="profileText">
+            <h2 id="name">ROHIT RAJ BHANDARI</h2>
          
-            <h3 id="color2">Full Stack Web developer & Civil Engineer</h3>
+            <h4 id="program">Full Stack Web developer & Civil Engineer</h4>
             <br />
-            <br>
-            <p id="color3">
+            
+            <p id="collage_link">
               <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target="_blank">Helsinki Business
                 Collage
             </p></a>
-          
+        </div>
             
-          </div>
+          
+                               <!-------------- ---------social media icons-------- --------->
           <div class="profileFonts">
             <a href="https://www.facebook.com/rohitraj.bhandari2" target="_blank">
               <i class="fa fa-facebook-square"></i></a>
@@ -63,18 +89,32 @@
     <!-- ---------------------------project section------------------------------------------ -->
     
     <section id="section02">
-      <div class="Project">
-        <div id="Project01">
-          <h2>Project</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minus voluptates deleniti ex blanditiis,
-            enim ea incidunt necessitatibus impedit eos quo maiores doloremque,
-            aliquid repellat vel modi voluptate ullam provident? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Dolorem, tenetur! At ipsa quis, accusantium natus vitae corrupti cum lau
-            dantium tempore hic recusandae consequuntur, fugiat quae, voluptatem deleniti! Nulla, enim amet.
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ab saepe doloribus iure rem
-            laudantium qui rerum suscipit quas.
-            Cumque quasi unde molestiae? Recusandae quas perspiciatis alias corrupti rerum aperiam?</p>
+      <div class="projects_work">
+        <div class="project_image">
+        <!--------------homepage_own_image-------- -->
+          <div id="profile_image">
+            <img src="images/ownimage.jpg" />
+          </div>
+
+
+                    <!------------front_Name and program -------- -->
+          <div class="project_description">
+            <h2 id="project_name">Javascript</h2>
+         
+            <h4 id="project_sub_name">Full Stack Web developer</h4>
+            <br />
+            
+            <p id="collage_link">
+              <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target="_blank">Helsinki Business
+                Collage
+            </p></a>
+          </div>
+            
+          
+                               
+          
+          
+    
         </div>
       </div>
     </section>
@@ -103,20 +143,20 @@
 
     <section id="section4"> 
       <div class="contactMe">
-        <div id="contact">
-          <h2>Contact</h2>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minus voluptates deleniti ex blanditiis,
-            enim ea incidunt necessitatibus impedit eos quo maiores doloremque,
-            aliquid repellat vel modi voluptate ullam provident? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Dolorem, tenetur! At ipsa quis, accusantium natus vitae corrupti cum lau
-            dantium tempore hic recusandae consequuntur, fugiat quae, voluptatem deleniti! Nulla, enim amet.</p>
+        <h2>Contact</h2>
+      <div id="contact">
+        <Address>
+          <p>phone: +354009702512</p>
+          <p>Email: rohit.raj.bhandari07@gmial.com</p>
+        
+        </Address>
+      </div>
     
-        </div>
-    
-      </section>
+    </section>
   </main>
    
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
