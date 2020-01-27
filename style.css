@@ -2,21 +2,30 @@
   padding: 0;
   margin: 0;
   font-family: "Kalam";
+  box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 main {
   scroll-behavior: smooth;
+=======
+html{
+   scroll-behavior: smooth;
+>>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
+ 
 
 /* ----------main section for whole pages------ */
 
-#mainsections {
-  background-color: rgb(180, 47, 47);
+body {
+ 
   width: auto;
   height: auto;
-
+  
+}
   /* background-image: url("keith-misner-h0Vxgz5tyXA-unsplash.jpg");
   height: 100%; */
+<<<<<<< HEAD
 }
 
 /*-------Nav bar-----*/
@@ -68,18 +77,23 @@ li a {
   text-align: center;
   padding: 14px 0px;
   text-decoration: none;
+=======
+
+
+/* --------------------NavBar:Hover------------- */
+div.hover_chnage nav:hover{
+  background-color: rgba(26, 5, 18, 0.788);
 }
 
-li a:hover {
-  background-color: rgba(95, 219, 95, 0.4);
+div#myNavbar ul a:hover{
+  zoom: 1.10;
+  color: rgb(236, 203, 11);
+>>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
 
-.active {
-  background-color: rgb(84, 158, 69);
-}
 
 /*-------Background image css----*/
-.homeFrontImg {
+#sections01 {
   width: 100%;
   height: 100vh;
   background-image: url("images/flat.jpg");
@@ -95,16 +109,18 @@ li a:hover {
 }
 
 /*-------Home page---------*/
-.profile {
-  width: 300px;
-  height: 380px;
-  background-color: rgba(78, 60, 60, 0.5);
-  padding: 30px 0px;
+.homeFrontImg {
+  width: auto;
+  padding:10px 10px;
+  height: auto;
+  background-color: rgba(221, 94, 94, 0.6);
+ 
   border-radius: 10%;
 
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center center;
+<<<<<<< HEAD
   background-attachment: fixed;
 }
 
@@ -113,20 +129,32 @@ li a:hover {
   zoom: 1.05;
 }
 
+=======
+  /* background-attachment: fixed; */
+   
+}
+
+.homeFrontImg:hover{
+  background-color: rgb(142, 142, 216);
+  zoom: 1.05;
+  
+}
+ 
+>>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 img {
   height: 150px;
   border-radius: 50%;
 }
 
-#colorName {
-  color: rgb(26, 23, 12);
+#name {
+  color: rgb(8, 7, 3);
 }
 
-#color2 {
-  color: rgb(231, 207, 205);
+#program {
+  color: rgb(220, 234, 235);
 }
 
-#color3 {
+#collage_link {
   color: rgba(241, 233, 229, 0.6);
   cursor: pointer;
 }
@@ -134,11 +162,21 @@ img {
 /* ---------------social media icons-------------- */
 .profileFonts {
   margin: 0px 20px;
+<<<<<<< HEAD
   font-size: 30px;
+=======
+  font-size: 25px;
+
+>>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
+}
+div.profileFonts a:hover{
+  zoom:1.4;
+  color: rgba(228, 55, 89, 0.7);
 }
 
 /*-----------Project page-----------------------*/
 
+<<<<<<< HEAD
 #section02 {
   height: 50vh;
 
@@ -146,15 +184,44 @@ img {
 
   width: 100%;
 
+=======
+#section02{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* background-color: rgb(224, 208, 208); */
+  background-image: url("images/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
+>>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+<<<<<<< HEAD
   /* overflow: hidden; */
+=======
+>>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
 
 
+.projects_work{
+  /* padding: 10px ; */
+  height: 90vh;
+  width: 90%;
+  top: 5vh;
+  
+ margin: auto auto;
+ background-image: url('images/bg-01.jpg');
+ 
+ 
+/* background-color: rgba(150, 166, 197, 0.425); */
+   
+   border: 1px solid white;
+ 
+  
 
+<<<<<<< HEAD
 .card-deck {
 
   border: 2px solid green;
@@ -174,6 +241,43 @@ img {
     center center fixed cover;
   margin: 30px;
 } */
+=======
+ 
+}
+
+.container{
+  
+  
+  width: auto;
+  height: auto;
+  /* border: 2px solid red; */
+   
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.project_one{ 
+/* display: flex;
+text-align: center; 
+justify-content: center; */
+margin: 30px;
+width: 150px;
+height: auto;
+background-color: rgb(3, 0, 0);
+/* background-image: url("images/flat.jpg"); */
+border-radius: 5px;
+/* background-size: cover; */
+/* background-repeat: no-repeat; */
+/* background-position: center center; */
+background-attachment: scroll;
+ 
+ 
+}
+
+
+>>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 
 /*-----------About Me page-------*/
 
@@ -186,46 +290,53 @@ img {
   background-position: center center;
   background-attachment: fixed;
   overflow: hidden;
-  margin-top: 30px;
+ 
 }
 
 #about_me h2 {
-  margin: 60px;
-  padding: 10px;
+  margin: 15px;
+  padding: 15px;
   border-radius: 10px;
 
   background-color: rgb(211, 183, 183);
   display: flex;
-  text-align: justify;
+  text-align: center; 
   justify-content: center;
-  overflow: hidden;
 }
 
 #about_me p {
-  margin: 0px 12px;
-  padding: 0px 12px;
-  font-size: 20px;
-  width: auto;
-  background-position: center center;
+  margin: 0px 10px;
+  padding: 0px 30px 20px 15px;
+
+  color: white;
+  word-wrap: break-word;
 }
 
 /*-----------Contact page------------*/
 
 .contactMe {
+  
   background-color: rgba(0, 0, 0, 0.835);
-  padding-top: 1px;
-  background-position: center center;
-  /* background-size: cover; */
-  background-attachment: scroll;
+  height:15vh;
+  width: 100%;
+   
+  background-size: cover;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   /* overflow: hidden; */
   background-size: 100%;
+=======
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: hidden;
+ 
+>>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
 
-#contact h2 {
+div.contactMe{
   color: white;
-  margin: 10px;
-  padding-top: 10px;
+ 
+
   display: flex;
   text-align: justify;
   justify-content: center;
