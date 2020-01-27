@@ -4,7 +4,7 @@
   font-family: "Kalam";
 }
 
-main{
+main {
   scroll-behavior: smooth;
 }
 
@@ -18,7 +18,6 @@ main{
   /* background-image: url("keith-misner-h0Vxgz5tyXA-unsplash.jpg");
   height: 100%; */
 }
-
 
 /*-------Nav bar-----*/
 
@@ -60,9 +59,6 @@ li {
   display: inline;
   /* justify-content: center;
   text-align: justify; */
-
-
-
 }
 
 li a {
@@ -72,7 +68,6 @@ li a {
   text-align: center;
   padding: 14px 0px;
   text-decoration: none;
-
 }
 
 li a:hover {
@@ -97,7 +92,6 @@ li a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-
 }
 
 /*-------Home page---------*/
@@ -107,18 +101,21 @@ li a:hover {
   background-color: rgba(78, 60, 60, 0.5);
   padding: 30px 0px;
   border-radius: 10%;
+
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-
 }
 
+.profile:hover {
+  background-color: rgba(53, 83, 216, 0.6);
+  zoom: 1.05;
+}
 
 img {
   height: 150px;
   border-radius: 50%;
-
 }
 
 #colorName {
@@ -134,29 +131,42 @@ img {
   cursor: pointer;
 }
 
-
 /* ---------------social media icons-------------- */
 .profileFonts {
   margin: 0px 20px;
   font-size: 30px;
-
 }
 
 /*-----------Project page-----------------------*/
 
-.Project {
-  /* height: 100%; */
+#section02 {
+  height: 50vh;
+
+  background-color: grey;
+
   width: 100%;
-  /* background-color: rgb(224, 208, 208); */
-  background-image: url("images/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   /* overflow: hidden; */
- padding-top: 25px;
- margin-top: 0px;
 }
+
+
+
+.card-deck {
+
+  border: 2px solid green;
+
+}
+
+/* .container>div:hover {
+  background-color: rgba(53, 83, 216, 0.6);
+  zoom: 1.05;
+
+}
+ */
 
 /* -------single line code of all above--------- */
 /* .Project {
@@ -164,27 +174,6 @@ img {
     center center fixed cover;
   margin: 30px;
 } */
-
-
-
- #Project01 h2 {
-  margin: 5px;
-  padding: 10px;
-  border-radius: 10px;
-
-  background-color: rgb(211, 183, 183);
-  display: flex;
-  text-align: justify; 
- }
-#Project01 p {
-
-  padding: 0px 15px;
-  font-size: 20px;
-  width: auto;
-  background-position: center center;
-  word-wrap: break-word;
-
-}
 
 /*-----------About Me page-------*/
 
@@ -230,8 +219,7 @@ img {
   background-attachment: scroll;
   background-repeat: no-repeat;
   /* overflow: hidden; */
-background-size: 100%;
- 
+  background-size: 100%;
 }
 
 #contact h2 {
@@ -250,5 +238,4 @@ background-size: 100%;
 
   color: white;
   word-wrap: break-word;
-
 }

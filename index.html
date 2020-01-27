@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,44 +9,48 @@
   <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  
 </head>
+
 <body id="home">
   <header>
-    
+
     <nav>
       <ul>
         <div id="logo">RB
-           
-        
+
+
           <li><a href="#home">home</a></li>
-          <li><a href="#Project01">Project</a></li>
+          <li><a href="#section02">Project</a></li>
           <li><a href="#about_me">About Me</a></li>
           <li><a href="#contact">Contact</a></li>
-        
-       </div>
+
+        </div>
       </ul>
     </nav>
   </header>
 
   <main>
     <!-- ---------------------------Home section------------------------------------------ -->
-    <section id="sections01"> 
-    <div class="homeFrontImg">
-      <div class="profile">
+    <section id="sections01">
+      <div class="homeFrontImg">
+        <div class="profile">
           <img src="images/ownimage.jpg" />
-    
+
           <div class="profileText">
             <h2 id="colorName">ROHIT RAJ BHANDARI</h2>
-         
+
             <h3 id="color2">Full Stack Web developer & Civil Engineer</h3>
             <br />
             <br>
             <p id="color3">
-              <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target="_blank">Helsinki Business
+              <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target="_blank">Helsinki
+                Business
                 Collage
             </p></a>
-          
-            
+
+
           </div>
           <div class="profileFonts">
             <a href="https://www.facebook.com/rohitraj.bhandari2" target="_blank">
@@ -56,31 +61,44 @@
             <a href="https://www.gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
           </div>
         </div>
-    
+
       </div>
     </section>
 
     <!-- ---------------------------project section------------------------------------------ -->
-    
+
     <section id="section02">
-      <div class="Project">
-        <div id="Project01">
-          <h2>Project</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minus voluptates deleniti ex blanditiis,
-            enim ea incidunt necessitatibus impedit eos quo maiores doloremque,
-            aliquid repellat vel modi voluptate ullam provident? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Dolorem, tenetur! At ipsa quis, accusantium natus vitae corrupti cum lau
-            dantium tempore hic recusandae consequuntur, fugiat quae, voluptatem deleniti! Nulla, enim amet.
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ab saepe doloribus iure rem
-            laudantium qui rerum suscipit quas.
-            Cumque quasi unde molestiae? Recusandae quas perspiciatis alias corrupti rerum aperiam?</p>
+      <div class="container">
+        <h2>Projects/Works</h2>
+
+        <p><strong>Note:</strong> The cards are displayed vertically on small screens (less than 576px):</p>
+        <div class="card-deck">
+          <div class="card bg-primary">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the first card</p>
+            </div>
+          </div>
+          <div class="card bg-warning">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the second card</p>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the third card</p>
+            </div>
+          </div>
+          <div class="card bg-danger">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the fourth card</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
 
-   <!-- ---------------------------About me section------------------------------------------ --> 
+    <!-- ---------------------------About me section------------------------------------------ -->
 
     <section id="section3">
       <div class="aboutMe">
@@ -88,7 +106,8 @@
           <h2>About Me</h2>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minus voluptates deleniti ex blanditiis,
             enim ea incidunt necessitatibus impedit eos quo maiores doloremque,
-            aliquid repellat vel modi voluptate ullam provident? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            aliquid repellat vel modi voluptate ullam provident? Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit.
             Dolorem, tenetur! At ipsa quis, accusantium natus vitae corrupti cum lau
             dantium tempore hic recusandae consequuntur, fugiat quae, voluptatem deleniti! Nulla, enim amet.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -101,22 +120,25 @@
 
     <!-- ---------------------------Contact section------------------------------------------ -->
 
-    <section id="section4"> 
+    <section id="section4">
       <div class="contactMe">
         <div id="contact">
           <h2>Contact</h2>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minus voluptates deleniti ex blanditiis,
             enim ea incidunt necessitatibus impedit eos quo maiores doloremque,
-            aliquid repellat vel modi voluptate ullam provident? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            aliquid repellat vel modi voluptate ullam provident? Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit.
             Dolorem, tenetur! At ipsa quis, accusantium natus vitae corrupti cum lau
             dantium tempore hic recusandae consequuntur, fugiat quae, voluptatem deleniti! Nulla, enim amet.</p>
-    
+
         </div>
-    
-      </section>
+
+    </section>
   </main>
-   
- 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
