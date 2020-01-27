@@ -15,6 +15,7 @@ body {
   width: auto;
   height: auto;
 }
+
 /* background-image: url("keith-misner-h0Vxgz5tyXA-unsplash.jpg");
   height: 100%; */
 
@@ -87,6 +88,7 @@ img {
   margin: 0px 20px;
   font-size: 25px;
 }
+
 div.profileFonts a:hover {
   zoom: 1.4;
   color: rgba(228, 55, 89, 0.7);
@@ -130,6 +132,14 @@ div.profileFonts a:hover {
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+.projects_work p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 4em;
 }
 
 .project_one {
@@ -184,33 +194,10 @@ justify-content: center; */
 
 .contactMe {
   background-color: rgba(0, 0, 0, 0.835);
-  height: 15vh;
+  /* height: 35px auto; */
   width: 100%;
 
-  background-size: cover;
-  background-repeat: no-repeat;
 
-  /* overflow: hidden; */
-  background-size: 100%;
 
-  background-position: center center;
-  background-attachment: fixed;
   overflow: hidden;
-}
-
-div.contactMe {
-  color: white;
-
-  display: flex;
-  text-align: justify;
-  justify-content: center;
-  overflow: hidden;
-}
-
-#contact p {
-  margin: 0px 10px;
-  padding: 0px 30px 20px 15px;
-
-  color: white;
-  word-wrap: break-word;
 }
