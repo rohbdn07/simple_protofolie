@@ -5,16 +5,14 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-main {
-  scroll-behavior: smooth;
-=======
 html{
    scroll-behavior: smooth;
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
  
 
+/* ----------main section for whole pages------ */
+/* ----------main section for whole pages------ */
+/* ----------main section for whole pages------ */
 /* ----------main section for whole pages------ */
 
 body {
@@ -23,61 +21,7 @@ body {
   height: auto;
   
 }
-  /* background-image: url("keith-misner-h0Vxgz5tyXA-unsplash.jpg");
-  height: 100%; */
-<<<<<<< HEAD
-}
-
-/*-------Nav bar-----*/
-
-/* header{
-  display: flex;
-  justify-content: left;
-  text-align: center;
-} */
-
-ul {
-  list-style-type: none;
-  margin: auto;
-  padding: auto;
-  overflow: hidden;
-  background-color: rgba(89, 107, 212, 0.863);
-  position: -webkit-sticky;
-  /* Safari */
-  position: sticky;
-  /*padding-left: 50%;*/
-  top: 0px;
-}
-
-/* nav{
-  float:right;
-  display:block;
-  text-align: center;
-  justify-content: center;
-
-} */
-
-#logo {
-  line-height: 50px;
-  padding-left: 30px;
-  margin: auto;
-  float: right;
-}
-
-li {
-  display: inline;
-  /* justify-content: center;
-  text-align: justify; */
-}
-
-li a {
-  /* display: inline; */
-
-  color: white;
-  text-align: center;
-  padding: 14px 0px;
-  text-decoration: none;
-=======
+  
 
 
 /* --------------------NavBar:Hover------------- */
@@ -120,16 +64,7 @@ div#myNavbar ul a:hover{
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center center;
-<<<<<<< HEAD
-  background-attachment: fixed;
-}
-
-.profile:hover {
-  background-color: rgba(53, 83, 216, 0.6);
-  zoom: 1.05;
-}
-
-=======
+ 
   /* background-attachment: fixed; */
    
 }
@@ -140,7 +75,6 @@ div#myNavbar ul a:hover{
   
 }
  
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 img {
   height: 150px;
   border-radius: 50%;
@@ -162,12 +96,8 @@ img {
 /* ---------------social media icons-------------- */
 .profileFonts {
   margin: 0px 20px;
-<<<<<<< HEAD
-  font-size: 30px;
-=======
   font-size: 25px;
 
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
 div.profileFonts a:hover{
   zoom:1.4;
@@ -176,15 +106,6 @@ div.profileFonts a:hover{
 
 /*-----------Project page-----------------------*/
 
-<<<<<<< HEAD
-#section02 {
-  height: 50vh;
-
-  background-color: grey;
-
-  width: 100%;
-
-=======
 #section02{
   height: 100vh;
   width: 100%;
@@ -193,15 +114,10 @@ div.profileFonts a:hover{
   justify-content: center;
   /* background-color: rgb(224, 208, 208); */
   background-image: url("images/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-<<<<<<< HEAD
-  /* overflow: hidden; */
-=======
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
 
 
@@ -221,27 +137,6 @@ div.profileFonts a:hover{
  
   
 
-<<<<<<< HEAD
-.card-deck {
-
-  border: 2px solid green;
-
-}
-
-/* .container>div:hover {
-  background-color: rgba(53, 83, 216, 0.6);
-  zoom: 1.05;
-
-}
- */
-
-/* -------single line code of all above--------- */
-/* .Project {
-  background-image: url("safar-safarov-MSN8TFhJ0is-unsplash.jpg") no-repeat
-    center center fixed cover;
-  margin: 30px;
-} */
-=======
  
 }
 
@@ -277,7 +172,6 @@ background-attachment: scroll;
 }
 
 
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 
 /*-----------About Me page-------*/
 
@@ -322,15 +216,10 @@ background-attachment: scroll;
    
   background-size: cover;
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  /* overflow: hidden; */
-  background-size: 100%;
-=======
   background-position: center center;
   background-attachment: fixed;
   overflow: hidden;
  
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
 
 div.contactMe{
