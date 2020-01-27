@@ -5,92 +5,29 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-main {
+html {
   scroll-behavior: smooth;
-=======
-html{
-   scroll-behavior: smooth;
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
- 
 
 /* ----------main section for whole pages------ */
 
 body {
- 
   width: auto;
   height: auto;
-  
 }
-  /* background-image: url("keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+
+/* background-image: url("keith-misner-h0Vxgz5tyXA-unsplash.jpg");
   height: 100%; */
-<<<<<<< HEAD
-}
-
-/*-------Nav bar-----*/
-
-/* header{
-  display: flex;
-  justify-content: left;
-  text-align: center;
-} */
-
-ul {
-  list-style-type: none;
-  margin: auto;
-  padding: auto;
-  overflow: hidden;
-  background-color: rgba(89, 107, 212, 0.863);
-  position: -webkit-sticky;
-  /* Safari */
-  position: sticky;
-  /*padding-left: 50%;*/
-  top: 0px;
-}
-
-/* nav{
-  float:right;
-  display:block;
-  text-align: center;
-  justify-content: center;
-
-} */
-
-#logo {
-  line-height: 50px;
-  padding-left: 30px;
-  margin: auto;
-  float: right;
-}
-
-li {
-  display: inline;
-  /* justify-content: center;
-  text-align: justify; */
-}
-
-li a {
-  /* display: inline; */
-
-  color: white;
-  text-align: center;
-  padding: 14px 0px;
-  text-decoration: none;
-=======
-
 
 /* --------------------NavBar:Hover------------- */
-div.hover_chnage nav:hover{
+div.hover_chnage nav:hover {
   background-color: rgba(26, 5, 18, 0.788);
 }
 
-div#myNavbar ul a:hover{
-  zoom: 1.10;
+div#myNavbar ul a:hover {
+  zoom: 1.1;
   color: rgb(236, 203, 11);
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
-
 
 /*-------Background image css----*/
 #sections01 {
@@ -111,36 +48,23 @@ div#myNavbar ul a:hover{
 /*-------Home page---------*/
 .homeFrontImg {
   width: auto;
-  padding:10px 10px;
+  padding: 10px 10px;
   height: auto;
   background-color: rgba(221, 94, 94, 0.6);
- 
+
   border-radius: 10%;
 
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center center;
-<<<<<<< HEAD
-  background-attachment: fixed;
-}
-
-.profile:hover {
-  background-color: rgba(53, 83, 216, 0.6);
-  zoom: 1.05;
-}
-
-=======
   /* background-attachment: fixed; */
-   
 }
 
-.homeFrontImg:hover{
+.homeFrontImg:hover {
   background-color: rgb(142, 142, 216);
   zoom: 1.05;
-  
 }
- 
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
+
 img {
   height: 150px;
   border-radius: 50%;
@@ -162,30 +86,17 @@ img {
 /* ---------------social media icons-------------- */
 .profileFonts {
   margin: 0px 20px;
-<<<<<<< HEAD
-  font-size: 30px;
-=======
   font-size: 25px;
-
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
-div.profileFonts a:hover{
-  zoom:1.4;
+
+div.profileFonts a:hover {
+  zoom: 1.4;
   color: rgba(228, 55, 89, 0.7);
 }
 
 /*-----------Project page-----------------------*/
 
-<<<<<<< HEAD
 #section02 {
-  height: 50vh;
-
-  background-color: grey;
-
-  width: 100%;
-
-=======
-#section02{
   height: 100vh;
   width: 100%;
   display: flex;
@@ -193,91 +104,59 @@ div.profileFonts a:hover{
   justify-content: center;
   /* background-color: rgb(224, 208, 208); */
   background-image: url("images/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-<<<<<<< HEAD
-  /* overflow: hidden; */
-=======
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
 
-
-.projects_work{
+.projects_work {
   /* padding: 10px ; */
   height: 90vh;
   width: 90%;
   top: 5vh;
-  
- margin: auto auto;
- background-image: url('images/bg-01.jpg');
- 
- 
-/* background-color: rgba(150, 166, 197, 0.425); */
-   
-   border: 1px solid white;
- 
-  
 
-<<<<<<< HEAD
-.card-deck {
+  margin: auto auto;
+  background-image: url("images/bg-01.jpg");
 
-  border: 2px solid green;
+  /* background-color: rgba(150, 166, 197, 0.425); */
 
+  border: 1px solid white;
 }
 
-/* .container>div:hover {
-  background-color: rgba(53, 83, 216, 0.6);
-  zoom: 1.05;
-
-}
- */
-
-/* -------single line code of all above--------- */
-/* .Project {
-  background-image: url("safar-safarov-MSN8TFhJ0is-unsplash.jpg") no-repeat
-    center center fixed cover;
-  margin: 30px;
-} */
-=======
- 
-}
-
-.container{
-  
-  
+.container {
   width: auto;
   height: auto;
   /* border: 2px solid red; */
-   
+
   display: flex;
   text-align: center;
   justify-content: center;
-  
 }
 
-.project_one{ 
-/* display: flex;
+.projects_work p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 4em;
+}
+
+.project_one {
+  /* display: flex;
 text-align: center; 
 justify-content: center; */
-margin: 30px;
-width: 150px;
-height: auto;
-background-color: rgb(3, 0, 0);
-/* background-image: url("images/flat.jpg"); */
-border-radius: 5px;
-/* background-size: cover; */
-/* background-repeat: no-repeat; */
-/* background-position: center center; */
-background-attachment: scroll;
- 
- 
+  margin: 30px;
+  width: 150px;
+  height: auto;
+  background-color: rgb(3, 0, 0);
+  /* background-image: url("images/flat.jpg"); */
+  border-radius: 5px;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  background-attachment: scroll;
 }
-
-
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 
 /*-----------About Me page-------*/
 
@@ -290,7 +169,6 @@ background-attachment: scroll;
   background-position: center center;
   background-attachment: fixed;
   overflow: hidden;
- 
 }
 
 #about_me h2 {
@@ -300,7 +178,7 @@ background-attachment: scroll;
 
   background-color: rgb(211, 183, 183);
   display: flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
 }
 
@@ -315,38 +193,11 @@ background-attachment: scroll;
 /*-----------Contact page------------*/
 
 .contactMe {
-  
   background-color: rgba(0, 0, 0, 0.835);
-  height:15vh;
+  /* height: 35px auto; */
   width: 100%;
-   
-  background-size: cover;
-  background-repeat: no-repeat;
-<<<<<<< HEAD
-  /* overflow: hidden; */
-  background-size: 100%;
-=======
-  background-position: center center;
-  background-attachment: fixed;
+
+
+
   overflow: hidden;
- 
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
-}
-
-div.contactMe{
-  color: white;
- 
-
-  display: flex;
-  text-align: justify;
-  justify-content: center;
-  overflow: hidden;
-}
-
-#contact p {
-  margin: 0px 10px;
-  padding: 0px 30px 20px 15px;
-
-  color: white;
-  word-wrap: break-word;
 }
