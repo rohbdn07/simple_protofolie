@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(125, 125, 219);
+  background-image: url("safar-safarov-MSN8TFhJ0is-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: coral;
+}
+#container {
+  /* display: inline-block;
+  justify-content: center;
+  text-align: center; */
+  background-color: aquamarine;
+  margin: 50px auto;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form form {
+  width: 300px;
+  margin: 50px auto;
+}
+.form-group {
+  margin: 20px 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid red;
+}
+
+.form-wrap button {
+  width: 60%;
+
+  background-color: saddlebrown;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
