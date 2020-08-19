@@ -9,11 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ----------main section for whole pages------ */
-/* ----------main section for whole pages------ */
-/* ----------main section for whole pages------ */
-/* ----------main section for whole pages------ */
-
 body {
   width: auto;
   height: auto;
@@ -89,65 +84,103 @@ img {
   margin: 0px 20px;
   font-size: 25px;
 }
+
 div.profileFonts a:hover {
   zoom: 1.4;
   color: rgba(228, 55, 89, 0.7);
 }
 
 /*-----------Project page-----------------------*/
-
-#section02 {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  /* background-color: rgb(224, 208, 208); */
-  background-image: url("images/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-.projects_work {
-  /* padding: 10px ; */
-  height: 90vh;
-  width: 90%;
-  top: 5vh;
-
-  margin: auto auto;
-  background-image: url("images/bg-01.jpg");
-
-  /* background-color: rgba(150, 166, 197, 0.425); */
-
-  border: 1px solid white;
-}
-
-.container {
-  width: auto;
-  height: auto;
-  /* border: 2px solid red; */
-
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.project_one {
-  /* display: flex;
-text-align: center; 
-justify-content: center; */
+/* -------------Explore by category----- */
+.middle-text {
   margin: 30px;
-  width: 150px;
-  height: auto;
-  background-color: rgb(3, 0, 0);
-  /* background-image: url("images/flat.jpg"); */
-  border-radius: 5px;
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center center; */
-  background-attachment: scroll;
+}
+
+.middle-text h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: var(--background-color);
+}
+
+/* ------------------IMAGES SIZE AND PROPERTIES------------ */
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 30px 40px 30px;
+  grid-gap: 15px;
+}
+
+.images .bg-image:hover {
+  opacity: 0.88;
+  transform: scale(1.01);
+}
+
+.images .bg-image:hover .title {
+  color: yellow;
+}
+
+.bg-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-prop {
+  background-color: var(--background-color);
+  padding: 60px;
+  min-height: 200px;
+  font-size: 28px;
+  color: var(--color);
+  text-shadow: 0 0 10px #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  box-shadow: inset 0 0 0 2000px rgba(0, 17, 62, 0.2);
+  transition: all 0.3s;
+}
+
+.bg-image-size {
+  min-width: 150px;
+  margin: 1%;
+}
+
+/* ---------------------IMAGES FOR JOB CATAGORIES--------------------- */
+.image01 {
+  background-image: url("https://images.unsplash.com/photo-1546953304-5d96f43c2e94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1602&q=80");
+}
+
+.image02 {
+  background-image: url("https://images.unsplash.com/photo-1581093803931-46e730e7622e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+}
+
+.image03 {
+  background-image: url("https://images.unsplash.com/photo-1549560826-4b7bfe23f37b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+}
+
+.image04 {
+  background-image: url("https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+}
+
+.image05 {
+  background-image: url("https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+}
+
+.image06 {
+  background-image: url("https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+}
+
+.image07 {
+  background-image: url("https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+}
+
+.image08 {
+  background-image: url("https://images.unsplash.com/photo-1581291519195-ef11498d1cf2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+}
+
+.image09 {
+  background-image: url("https://images.unsplash.com/photo-1556740772-1a741367b93e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
 }
 
 /*-----------About Me page-------*/
@@ -155,7 +188,7 @@ justify-content: center; */
 .aboutMe {
   height: 100vh;
   width: 100%;
-  background-image: url("images/keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+  background-image: url("https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -184,11 +217,8 @@ justify-content: center; */
 
 /*-----------Contact page------------*/
 
-.contactMe {
+#section4 {
   background-color: rgba(0, 0, 0, 0.835);
-  height: 15vh;
-  width: 100%;
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

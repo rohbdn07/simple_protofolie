@@ -2,7 +2,7 @@
 <html lang="en">
   <!-- test commit from powershell-->
   <!-- test commit from powershell once more-->
-<!-- test commit from powershell once more and practsing more in command line-->
+  <!-- test commit from powershell once more and practsing more in command line-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,14 +17,20 @@
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="script.js" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- ------------linked cdn from w3 school-------- -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   </head>
   <body>
     <!-- --------------------NavBar---------------- -->
+
     <div class="hover_chnage">
       <nav class="navbar navbar-inverse navbar-fixed-top text-uppercase ">
         <div class="container-fluid">
@@ -54,9 +60,9 @@
                   >Project <span class="caret"></span
                 ></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#section02">Project 1</a></li>
-                  <li><a href="#section02">Project 2</a></li>
-                  <li><a href="#section02">Project 3</a></li>
+                  <li><a href="#project-section">Project 1</a></li>
+                  <li><a href="#project-section">Project 2</a></li>
+                  <li><a href="#project-section">Project 3</a></li>
                 </ul>
               </li>
               <li><a href="#section3">About Me</a></li>
@@ -64,7 +70,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <a href="#"
+                <a href="form.html"
                   ><span class="glyphicon glyphicon-user"></span> Sign Up</a
                 >
               </li>
@@ -83,7 +89,7 @@
     <main>
       <!-- ---------------------------Home section------------------------------------------ -->
       <section id="sections01">
-        <div class="homeFrontImg">
+        <div class="homeFrontImg" data-aos="flip-right">
           <!--------------homepage_own_image-------- -->
           <div class="profile_ownimage">
             <img src="images/ownimage.jpg" />
@@ -92,7 +98,7 @@
             <div class="profileText">
               <h2 id="name">ROHIT RAJ BHANDARI</h2>
 
-              <h4 id="program">Full Stack Web developer & Civil Engineer</h4>
+              <h4 id="program">Full Stack Web developer</h4>
               <br />
 
               <p id="collage_link">
@@ -130,110 +136,40 @@
 
       <!-- ---------------------------project section------------------------------------------ -->
 
-      <section id="section02">
-        <div class="projects_work">
-          <div class="container">
-            <div class="project_one">
-              <div class="project_description">
-                <h2>Javascript</h2>
+      <section class="catagories" id="project-section">
+        <div class="middle-text">
+          <h2>PROJECTS & SERVICES CATEGORIES</h2>
+          <br />
+          
+        </div>
+        <div class="images">
+          <div class="image01 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">ACADEMIC</h5>
+          </div>
 
-                <h4>Project work</h4>
-                <br />
-                <a
-                  href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
-                  target="_blank"
-                  class="btn btn-primary btn-lg active"
-                  role="button"
-                  aria-pressed="true"
-                  >Link</a
-                >
-              </div>
-            </div>
-
-            <div class="project_one">
-              <div class="project_description">
-                <h2>Javascript</h2>
-
-                <h4>Project work</h4>
-                <br />
-                <a
-                  href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
-                  target="_blank"
-                  class="btn btn-primary btn-lg active"
-                  role="button"
-                  aria-pressed="true"
-                  >Link</a
-                >
-              </div>
-            </div>
-
-            <div class="project_one">
-              <div class="project_description">
-                <h2>Javascript</h2>
-
-                <h4>Project work</h4>
-                <br />
-                <a
-                  href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
-                  target="_blank"
-                  class="btn btn-primary btn-lg active"
-                  role="button"
-                  aria-pressed="true"
-                  >Link</a
-                >
-              </div>
-            </div>
-
-            <div class="project_one">
-              <div class="project_description">
-                <h2>Javascript</h2>
-
-                <h4>Project work</h4>
-                <br />
-                <a
-                  href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
-                  target="_blank"
-                  class="btn btn-primary btn-lg active"
-                  role="button"
-                  aria-pressed="true"
-                  >Link</a
-                >
-              </div>
-            </div>
-
-            <div class="project_one">
-              <div class="project_description">
-                <h2>Javascript</h2>
-
-                <h4>Project work</h4>
-                <br />
-                <a
-                  href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
-                  target="_blank"
-                  class="btn btn-primary btn-lg active"
-                  role="button"
-                  aria-pressed="true"
-                  >Link</a
-                >
-              </div>
-            </div>
-
-            <div class="project_one">
-              <div class="project_description">
-                <h2>Javascript</h2>
-
-                <h4>Project work</h4>
-                <br />
-                <a
-                  href="https://en.bc.fi/qualifications/full-stack-web-developer-program/"
-                  target="_blank"
-                  class="btn btn-primary btn-lg active"
-                  role="button"
-                  aria-pressed="true"
-                  >Link</a
-                >
-              </div>
-            </div>
+          <div class="image02 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">EDUCATION</h5>
+          </div>
+          <div class="image03 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">HEALTH</h5>
+          </div>
+          <div class="image04 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">HOSPILITY</h5>
+          </div>
+          <div class="image05 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">ICT</h5>
+          </div>
+          <div class="image06 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">MANUFACTURE</h5>
+          </div>
+          <div class="image07 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">MARKETING & SALES</h5>
+          </div>
+          <div class="image08 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">PROJECT MANAGEMENT</h5>
+          </div>
+          <div class="image09 bg-image bg-image-prop bg-image-size ">
+            <h5 class="title">SERVICE</h5>
           </div>
         </div>
       </section>
@@ -244,7 +180,7 @@
         <div class="aboutMe">
           <div id="about_me">
             <h2>About Me</h2>
-            <p>
+            <p data-aos="zoom-in">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
               minus voluptates deleniti ex blanditiis, enim ea incidunt
               necessitatibus impedit eos quo maiores doloremque, aliquid
@@ -255,9 +191,30 @@
               enim amet. Lorem ipsum dolor, sit amet consectetur adipisicing
               elit.
               <br />
+              <br>
               Ratione magnam eos aperiam exercitationem dignissimos blanditiis
               nihil sapiente atque perspiciatis. Natus, neque repellendus!
               Suscipit iste nobis eligendi necessitatibus modi at voluptatibus!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              minus voluptates deleniti ex blanditiis, enim ea incidunt
+              necessitatibus impedit eos quo maiores doloremque, aliquid
+              repellat vel modi voluptate ullam provident? Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Dolorem, tenetur! At ipsa
+              quis, accusantium natus vitae corrupti cum lau dantium tempore hic
+              recusandae consequuntur, fugiat quae, voluptatem deleniti! Nulla,
+              enim amet. Lorem ipsum dolor, sit amet consectetur adipisicing
+              <br><br>
+              Ratione magnam eos aperiam exercitationem dignissimos blanditiis
+              nihil sapiente atque perspiciatis. Natus, neque repellendus!
+              Suscipit iste nobis eligendi necessitatibus modi at voluptatibus!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              minus voluptates deleniti ex blanditiis, enim ea incidunt
+              necessitatibus impedit eos quo maiores doloremque, aliquid
+              repellat vel modi voluptate ullam provident? Lorem ipsum, dolor
+              sit amet consectetur adipisicing elit. Dolorem, tenetur! At ipsa
+              quis, accusantium natus vitae corrupti cum lau dantium tempore hic
+              recusandae consequuntur, fugiat quae, voluptatem deleniti! Nulla,
+              enim amet. Lorem ipsum dolor, sit amet consectetur adipisicing
             </p>
           </div>
         </div>
@@ -280,5 +237,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
