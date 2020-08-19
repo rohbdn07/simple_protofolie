@@ -5,10 +5,9 @@
   box-sizing: border-box;
 }
 
-html{
-   scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
- 
 
 /* ----------main section for whole pages------ */
 /* ----------main section for whole pages------ */
@@ -16,25 +15,19 @@ html{
 /* ----------main section for whole pages------ */
 
 body {
- 
   width: auto;
   height: auto;
-  
 }
-  
-
 
 /* --------------------NavBar:Hover------------- */
-div.hover_chnage nav:hover{
+div.hover_chnage nav:hover {
   background-color: rgba(26, 5, 18, 0.788);
 }
 
-div#myNavbar ul a:hover{
-  zoom: 1.10;
+div#myNavbar ul a:hover {
+  zoom: 1.1;
   color: rgb(236, 203, 11);
->>>>>>> c151f56dab16a1fce15f7c80dff5e16d3a10b2a6
 }
-
 
 /*-------Background image css----*/
 #sections01 {
@@ -55,26 +48,24 @@ div#myNavbar ul a:hover{
 /*-------Home page---------*/
 .homeFrontImg {
   width: auto;
-  padding:10px 10px;
+  padding: 10px 10px;
   height: auto;
   background-color: rgba(221, 94, 94, 0.6);
- 
+
   border-radius: 10%;
 
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center center;
- 
+
   /* background-attachment: fixed; */
-   
 }
 
-.homeFrontImg:hover{
+.homeFrontImg:hover {
   background-color: rgb(142, 142, 216);
   zoom: 1.05;
-  
 }
- 
+
 img {
   height: 150px;
   border-radius: 50%;
@@ -97,16 +88,15 @@ img {
 .profileFonts {
   margin: 0px 20px;
   font-size: 25px;
-
 }
-div.profileFonts a:hover{
-  zoom:1.4;
+div.profileFonts a:hover {
+  zoom: 1.4;
   color: rgba(228, 55, 89, 0.7);
 }
 
 /*-----------Project page-----------------------*/
 
-#section02{
+#section02 {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -120,58 +110,45 @@ div.profileFonts a:hover{
   background-attachment: fixed;
 }
 
-
-.projects_work{
+.projects_work {
   /* padding: 10px ; */
   height: 90vh;
   width: 90%;
   top: 5vh;
-  
- margin: auto auto;
- background-image: url('images/bg-01.jpg');
- 
- 
-/* background-color: rgba(150, 166, 197, 0.425); */
-   
-   border: 1px solid white;
- 
-  
 
- 
+  margin: auto auto;
+  background-image: url("images/bg-01.jpg");
+
+  /* background-color: rgba(150, 166, 197, 0.425); */
+
+  border: 1px solid white;
 }
 
-.container{
-  
-  
+.container {
   width: auto;
   height: auto;
   /* border: 2px solid red; */
-   
+
   display: flex;
   text-align: center;
   justify-content: center;
-  
 }
 
-.project_one{ 
-/* display: flex;
+.project_one {
+  /* display: flex;
 text-align: center; 
 justify-content: center; */
-margin: 30px;
-width: 150px;
-height: auto;
-background-color: rgb(3, 0, 0);
-/* background-image: url("images/flat.jpg"); */
-border-radius: 5px;
-/* background-size: cover; */
-/* background-repeat: no-repeat; */
-/* background-position: center center; */
-background-attachment: scroll;
- 
- 
+  margin: 30px;
+  width: 150px;
+  height: auto;
+  background-color: rgb(3, 0, 0);
+  /* background-image: url("images/flat.jpg"); */
+  border-radius: 5px;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  background-attachment: scroll;
 }
-
-
 
 /*-----------About Me page-------*/
 
@@ -184,7 +161,6 @@ background-attachment: scroll;
   background-position: center center;
   background-attachment: fixed;
   overflow: hidden;
- 
 }
 
 #about_me h2 {
@@ -194,7 +170,7 @@ background-attachment: scroll;
 
   background-color: rgb(211, 183, 183);
   display: flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
 }
 
@@ -209,22 +185,19 @@ background-attachment: scroll;
 /*-----------Contact page------------*/
 
 .contactMe {
-  
   background-color: rgba(0, 0, 0, 0.835);
-  height:15vh;
+  height: 15vh;
   width: 100%;
-   
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   overflow: hidden;
- 
 }
 
-div.contactMe{
+div.contactMe {
   color: white;
- 
 
   display: flex;
   text-align: justify;
